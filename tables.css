@@ -104,3 +104,26 @@ h3{
 .image{
     margin-right: 20px;
 }
+.footer-block{
+    display: flex;
+    align-items: center;
+}
+.footer-text{
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 144px 0;
+    color: #fff;
+}
+.footer-text p{
+    margin-right: 65px;
+}
+.icons ul{
+    display: flex;
+    align-items: center;
+}
+.icons li{
+    margin-right: 10px;
+}
+.icons{
+    margin-left: auto;
+}

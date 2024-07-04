@@ -115,4 +115,27 @@ header a{
     margin-top: 67px;
     display: flex;
     justify-content: space-between;
+    margin-left: -50px;
+}
+.footer-block{
+    display: flex;
+    align-items: center;
+}
+.footer-text{
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 144px 0;
+}
+.footer-text p{
+    margin-right: 65px;
+}
+.icons ul{
+    display: flex;
+    align-items: center;
+}
+.icons li{
+    margin-right: 10px;
+}
+.icons{
+    margin-left: auto;
 }
