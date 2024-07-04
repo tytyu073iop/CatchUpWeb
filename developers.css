@@ -115,3 +115,7 @@ ul,li{
 .image{
     margin-right: 20px;
 }
+.mail{
+    color: white;
+    text-decoration: underline;
+}
