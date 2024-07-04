@@ -3,7 +3,7 @@ body{
     margin: 0;
     font-family: 'Arial', sans-serif;
     font-family: Arial, sans-serif;
-    color: black;
+    color: white;
     font-size: 16px;
     background-image: url("cave2.png");
 }
@@ -17,7 +17,6 @@ h1,h2,h3,h4,h5,h6{
 }
 h3{
     font-size: 25px;
-    color:#fff;
     margin:0;
 }
 a{
@@ -28,13 +27,34 @@ ul,li{
     margin: 0;
     padding: 0;
 }
+.Ilya li{
+    display: revert;
+}
+.Ilya ul{
+    padding: revert;
+}
+.Nikolay li{
+    display: revert;
+}
+.Nikolay ul{
+    padding: revert;
+}
+.Anton li{
+    display: revert;
+}
+.Anton ul{
+    padding: revert;
+}
+/*Надо зарефакторить*/
+.Anton {
+    align-content: start;
+}
 .container{
     width: 1170px;
     margin: 0 auto;
 }
 .header{
     padding-top: 100px;
-    color: #fff;
     padding-bottom: 400px;
     unicode-bidi: isolate;
     margin:10px;
@@ -49,7 +69,7 @@ ul,li{
     text-transform: uppercase;
     font-size: 17px;
     letter-spacing: 0.1em;
-    color: #fff;
+    color: white; /*Для того, чтобы ссылки выше были белые*/
 }
 .menu li{
     margin-right: 40px;
@@ -72,14 +92,13 @@ ul,li{
 }
 .Ilya, .Anton, .Nikolay{
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
 }
 .Ilya p, .Anton p, .Nikolay p{
     font-family: sans-serif;
     font-weight: 400;
     text-align: justify;
     line-height: 1.62em;
-    color: #fff;
 }
 .desk-left, .desk-right{
     width: 567px;
