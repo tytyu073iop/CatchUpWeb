@@ -115,4 +115,11 @@ header a{
     margin-top: 67px;
     display: flex;
     justify-content: space-between;
+    
+}
+.galery img{
+    transition: all .2s ease-in-out;
+}
+.galery img:hover{
+    transform: scale(1.5);
 }
