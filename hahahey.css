@@ -123,3 +123,10 @@ header a{
 .galery img:hover{
     transform: scale(1.5);
 }
+video{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 260px;
+    height: 145px;
+}
