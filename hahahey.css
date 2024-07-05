@@ -153,3 +153,11 @@ video{
 .icons{
     margin-left: auto;
 }
+@media (orientation: portrait) {
+    .description, .galery{
+        display: revert;
+    }
+    video{
+       display: none;
+    }
+}
