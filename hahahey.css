@@ -160,4 +160,7 @@ video{
     video{
        display: none;
     }
+    .galery img:hover{
+        transform: none;
+    }
 }
