@@ -19,6 +19,18 @@ h2{
     font-size: 50px;
     margin-bottom: 58px;
 }
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: RoyalBlue;
+}
 h3{
     font-size: 25px;
 }
@@ -37,7 +49,7 @@ ul,li{
     padding: 0;
 }
 .container{
-    width: 100%;
+    width: 1170px;
     margin: 0 auto;
 }
 .header{
@@ -119,8 +131,6 @@ header a{
 }
 .galery img{
     transition: all .2s ease-in-out;
-    max-width: 100%;
-    max-height: 100%;
 }
 .galery img:hover{
     transform: scale(1.5);
@@ -131,53 +141,4 @@ video{
     right: 20px;
     width: 260px;
     height: 145px;
-}
-.footer-block{
-    display: flex;
-    align-items: center;
-}
-.footer-text{
-    font-size: 15px;
-    font-family: sans-serif;
-    padding: 144px 0;
-    color: #fff;
-}
-.footer-text p{
-    margin-right: 65px;
-}
-.icons ul{
-    display: flex;
-    align-items: center;
-}
-.icons li{
-    margin-right: 10px;
-}
-.icons{
-    margin-left: auto;
-}
-@media (orientation: portrait) {
-    .description, .galery{
-        display: revert;
-    }
-    video{
-       display: none;
-    }
-    .galery img:hover{
-        transform: none;
-    }
-    .btn{
-        display: none;
-    }
-    .menu{
-        display: revert;
-    }
-    ul, li{
-        margin-bottom: 10px;
-    }
-    .nav{
-        display: revert;
-    }
-    .footer-block {
-        display: revert;
-    }
 }
