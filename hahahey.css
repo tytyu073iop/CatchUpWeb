@@ -37,7 +37,7 @@ ul,li{
     padding: 0;
 }
 .container{
-    width: 1170px;
+    width: 100%;
     margin: 0 auto;
 }
 .header{
@@ -175,6 +175,9 @@ video{
         margin-bottom: 10px;
     }
     .nav{
+        display: revert;
+    }
+    .footer-block {
         display: revert;
     }
 }
