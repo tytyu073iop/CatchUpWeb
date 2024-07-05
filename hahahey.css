@@ -119,6 +119,8 @@ header a{
 }
 .galery img{
     transition: all .2s ease-in-out;
+    max-width: 100%;
+    max-height: 100%;
 }
 .galery img:hover{
     transform: scale(1.5);
@@ -162,5 +164,17 @@ video{
     }
     .galery img:hover{
         transform: none;
+    }
+    .btn{
+        display: none;
+    }
+    .menu{
+        display: revert;
+    }
+    ul, li{
+        margin-bottom: 10px;
+    }
+    .nav{
+        display: revert;
     }
 }
